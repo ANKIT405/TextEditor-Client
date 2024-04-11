@@ -13,7 +13,7 @@ function App() {
   //pointer
   let cursor = `<img id='pointer' src=${aero} alt=""/>`;
 
-  let Client = io("https://text-editor-server-oaxm.vercel.app/");
+  let Client = io("https://text-editor-server.vercel.app/");
   
   //================on mouse over================================
   window.addEventListener("mouseover", () => {
